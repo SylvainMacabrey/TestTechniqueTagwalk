@@ -15,7 +15,7 @@ PUT /medias
 GET /medias/_doc/_search
 {
     "query": {
-        "fuzzy": {
+        "term": {
             "season": { "value": "fall-winter-2022" }
         }
     }
